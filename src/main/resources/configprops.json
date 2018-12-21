@@ -1,0 +1,25 @@
+{
+  "data_sources": [
+    {
+      "password": "postgres",
+      "tenantId": "default_tenant",
+      "driverClassName": "org.postgresql.Driver",
+      "url": "jdbc:postgresql://localhost:5432/default_tenant?useSSL=false",
+      "username": "postgres"
+    },
+    {
+      "password": "postgres",
+      "tenantId": "tenant_1",
+      "driverClassName": "org.postgresql.Driver",
+      "url": "jdbc:postgresql://localhost:5432/dbtenant1?useSSL=false ",
+      "username": "postgres"
+    },
+    {
+      "password": "postgres",
+      "tenantId": "tenant_2",
+      "driverClassName": "org.postgresql.Driver",
+      "url": "jdbc:postgresql://localhost:5432/dbtenant2?useSSL=false ",
+      "username": "postgres"
+    }
+  ]
+}
